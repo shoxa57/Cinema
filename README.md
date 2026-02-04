@@ -48,7 +48,3 @@ The project follows a "Neural-Glass" philosophy:
 ---
 
 **Developed by Shokhrukhbek Khakimov | 2026
-
-**Would you like me to help you write a short LinkedIn post to announce this project to your network?**
-
-```
