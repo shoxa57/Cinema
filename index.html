@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-overlay" id="bgOverlay"></div>
+
+    <div class="app-container">
+        <header>
+            <h1 class="logo"><span>Cinema</span></h1>
+            <div class="search-wrapper">
+                <div class="search-glass-container">
+                    <i class="fas fa-search search-neural-icon"></i>
+                    <input type="text" id="movieSearch" placeholder="Scan neural database..." autocomplete="off">
+                    <div class="search-glow"></div>
+                </div>
+            </div>
+        </header>
+
+        <main id="movieGrid" class="movie-grid">
+            </main>
+    </div>
+
+    <div id="movieModal" class="movie-modal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div id="videoContainer" class="video-container"></div>
+            <div class="modal-info-panel">
+                <h2 id="modalTitle"></h2>
+                <div class="modal-meta">
+                    <span id="modalRating" class="rating-tag"></span>
+                    <span id="modalDate"></span>
+                </div>
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
